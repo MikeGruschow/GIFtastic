@@ -8,7 +8,7 @@ $(document).ready(function() {
     function displayInfo(){
       $('#hero-view').empty();
       var topic = $(this).attr('data-name');
-      var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + topic + '&api_key=jVz8LzEOLKTNPSj1tux4I40dP1PX6Pbg&limit=10';
+      var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + topic + '&api_key=t4EgGffQk7fO5DChKsP4VZm3yCXcwQPa&limit=10';
 
       // AJAX call to GET information 
       $.ajax({
@@ -120,4 +120,4 @@ $(document).ready(function() {
     renderButtons();
 
 
-}); //PAGE CLOSING BRACKET
+}); 
